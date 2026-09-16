@@ -117,3 +117,9 @@ Marca recibe notificación de nuevo sub-pedido
 - Backoffice de administración completo (reportes financieros, gestión de catálogos ajenos, soporte); el panel de admin de v1 solo aprueba o rechaza marcas.
 - Cupones y descuentos con lógica real (el campo puede quedar visible en el carrito pero sin funcionalidad hasta v2).
 - Devoluciones postventa, más allá de la cancelación antes del despacho.
+
+## 7. Estado del prototipo
+
+Las 18 pantallas de esta especificación ya están construidas en el prototipo: https://claude.ai/artifact/Aqio5zRt2rafku6T95Dcdy
+
+Cambios sobre el prototipo del paso 4: el carrito ahora agrupa los productos por marca; se agregó el flujo de cuenta (crear cuenta / iniciar sesión, obligatorio antes de pagar), "Mis pedidos" y "Mi cuenta"; del lado de la marca se agregó el registro, el estado de la solicitud, el catálogo de productos con stock por talla, la edición de producto y el perfil de marca; el panel de pedidos ahora tiene el ciclo completo de estados (nuevo → preparando → despachado) y la opción de cancelar; y se agregó el panel mínimo de administrador para aprobar o rechazar marcas.
